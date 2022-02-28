@@ -55,7 +55,7 @@ Examples:
 */
 
 function hasNoDuplicates(arr) {
-   return arr.some(function(val){
+   return arr.every(function(val){
     return arr[0] !== arr[val]; 
    })
 }
